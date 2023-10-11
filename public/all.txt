@@ -1,15 +1,27 @@
 index.md
+
+
 DriveTeam.md
-Electrical.md
+
+
+Electrical Files/Datasheets.md
+Electrical Files/Guide_Documents_And_External_Links.md
+Electrical Files/Image_Refrences.md
+Electrical Files/Miscellaneous_Testing_Materials.md
+Electrical Files/Preliminary_Videos.md
+Electrical Files/Team-made_Training_Slides.md
+
+
 Mechanical.md
+
+
 PitTeam.md
+
+
 Pneumatics.md
+
+
 Programming.md
+
+
 ScoutStrategies.md
-
-
-
-
-
-
-
