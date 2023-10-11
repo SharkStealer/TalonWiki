@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <!-- Basic Page Needs
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <!-- Modify your wiki title here -->
@@ -28,80 +29,63 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.4.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.4.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.4.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.4.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.4.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.4.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.4.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.4.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.4.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.4.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+<body>
 
-    
-  </head>
-  <body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="row brand">
+      <div class="container">
+          <!-- Modify Your Brand Here -->
+          <a href=".">Talon Wiki</a>
+      </div>
+  </div>
+  <nav class="row navbar">
+      <div class="nav-control">
+          <div class="container">
+              <div>
+                  <ul class="nav">
+                      <li><button class="nav-button" onclick="location.href='https://other-thread-172.techsmart.cc/#!index.md'">Home</button></li>                  
+                      <li><button class="nav-button" id="all_pages">All Pages</button></li>
+                      <li><button class="nav-button" id="random_pages">Random Page</button></li>
+                  </ul>
+                  <div id="nav-right">
+                      <input id="search-input" type="text" placeholder="Search">
+                      <button id="toc-button" class="nav-button">ToC</button>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-    <!-- Primary Page Layout
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row brand">
-        <div class="container">
-            <!-- Modify Your Brand Here -->
-            <a href=".">Talon Wiki</a>
-        </div>
-    </div>
-    <nav class="row navbar">
-        <div class="nav-control">
-            <div class="container">
-                <div>
-                    <ul class="nav">
-                        <li><button class="nav-button" id="all_pages">All Pages</button></li>
-                        <li><button class="nav-button" id="random_pages">Random Page</button></li>
-                    </ul>
-                    <div id="nav-right">
-                        <input id="search-input" type="text" placeholder="Search">
-                        <button id="toc-button" class="nav-button">ToC</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-  
-        <div id="toc-wrapper" class="toc-panel hide">
-            <div id="toc">  
-              <!--table of contents-->
-            </div>
-        </div>
-        <div id="search-result-wrapper" class="nav-result hide">
-            <div class="container">
-                <div id="search-result" class="search-result">
-                    <!--search result-->
-                </div>
-            </div>
-        </div>
-    </nav>
-  
-    <div id="main" class="row">
-        <div class="container">
-            <div id="content" class="">
-                <!--for the main content-->
-            </div>
-        </div>
-    </div>
-  
-    <footer id="footer row">
-        <!-- modify your footer here -->
-        <div class="container">
-            Powered by <a href="https://github.com/SharkStealer" target="_blank">Harrison</a>
-        </div>
-    </footer>
+      <div id="toc-wrapper" class="toc-panel hide">
+          <div id="toc">  
+            <!--table of contents-->
+          </div>
+      </div>
+      <div id="search-result-wrapper" class="nav-result hide">
+          <div class="container">
+              <div id="search-result" class="search-result">
+                  <!--search result-->
+              </div>
+          </div>
+      </div>
+  </nav>
+
+  <div id="main" class="row">
+      <div class="container">
+          <div id="content" class="">
+              <!--for the main content-->
+          </div>
+      </div>
+  </div>
+
+  <footer id="footer row">
+      <!-- modify your footer here -->
+      <div class="container">
+          Powered by <a href="https://github.com/SharkStealer" target="_blank">Harrison</a>
+      </div>
+  </footer>
+
   
   
   <!-- End Document
