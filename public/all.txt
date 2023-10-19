@@ -10,9 +10,10 @@ Electrical Files/Image_Refrences.md
 Electrical Files/Miscellaneous_Testing_Materials.md
 Electrical Files/Preliminary_Videos.md
 Electrical Files/Team-made_Training_Slides.md
+Electrical Files/Electrical_Skills_Ladder.md
 
 
-Mechanical.md
+Mechanical_Skills_Ladder.md
 
 
 PitTeam.md
@@ -25,3 +26,12 @@ Programming.md
 
 
 ScoutStrategies.md
+
+
+
+
+
+
+
+
+
