@@ -18,7 +18,10 @@ ol {
 
 /* Main content */
 #main {
-    background: #555;
+    background-image: url('https://images6.alphacoders.com/568/568500.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-position: center;
+    background-size: cover; /* Adjust as needed */
+    background-repeat: repeat;
 }
 
 #main .container {
@@ -26,11 +29,13 @@ ol {
     padding: 2.5em 0;
     z-index: 1;
     height: 100%;
+    color:white;
 }
 
 #main .container::before {
     content: '';
-    background: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: ;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -41,7 +46,7 @@ ol {
 
 #main h2::before {
     content: '\00a0';
-    background: #444;
+    background: #a3b18a;
     position: absolute;
     left: -3rem;
     right: -3rem;
@@ -50,7 +55,7 @@ ol {
 }
 
 #main h2 {
-    color: #CBB7A7;
+    color: #357266;
     margin: -2rem 0 4rem 0;
     padding: 4rem 0 0 0;
     text-shadow: 1px 1px #333;
@@ -58,7 +63,7 @@ ol {
 
 code {
     font-size: 85%;
-    color: #555;
+    color: green;
 }
 
 blockquote {
@@ -80,10 +85,16 @@ blockquote {
 /* Header */
 
 .brand, footer {
-    background: #333;
+    background-image: url('https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?cs=srgb&dl=pexels-magda-ehlers-2114014.jpg&fm=jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-position: center;
+    background-size: cover; /* Adjust as needed */
+    background-repeat: repeat;
     color: #EEE;
 }
-
+footer{
+    background-image: '';
+    background-color: orange;
+  }
 .brand {
     font-size: 3rem;
     padding: 2rem 0;
